@@ -48,4 +48,8 @@ func main() {
 	fmt.Println("\nSegundo Bloco:")
 	fmt.Println(contador)
 
+	// Exemplo de converter funções
+	fmt.Println("\nExemplo de converter funções: Int para Float: VarConvertida := Tipo(varParaSerConvertida) ")
+	j := float32(x)
+	fmt.Println(j)
 }
