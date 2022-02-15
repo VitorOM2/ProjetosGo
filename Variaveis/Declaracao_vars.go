@@ -27,4 +27,25 @@ func main() {
 	fmt.Println("\nExemplo de declarar variável nº 3. NomeVar := Valor")
 	fmt.Println(z)
 
+	// Exemplos  de blocos de Variáveis
+
+	// 1º Bloco
+	var (
+		nome      string = "José"
+		sobrenome string = "Silva"
+		id        int    = 1
+	)
+
+	// 2º Bloco
+
+	var (
+		contador int = 0
+	)
+
+	fmt.Println("\nPrimeiro Bloco:")
+	fmt.Println(nome, sobrenome, id)
+
+	fmt.Println("\nSegundo Bloco:")
+	fmt.Println(contador)
+
 }
