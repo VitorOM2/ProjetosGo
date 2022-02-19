@@ -13,7 +13,7 @@ func main() {
 	var bP bool = true
 	var bN bool = false
 
-	fmt.Println("Exemplo de um boolean positivo: %v, %T", bP, bP)
+	fmt.Printf("Exemplo de um boolean positivo: %v, %T\n", bP, bP)
 	fmt.Printf("Exemplo de um boolean falso: %v, %T \n\n", bN, bN)
 
 	// ---------- Tipos Numéricos ----------
