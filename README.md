@@ -8,3 +8,8 @@ Estes repositórios são apenas testes e algumas anotações durante os meus est
     <br> * Formas de declarar variáveis
     <br> * Blocos de Variáveis
     <br> * Converção de variáveis
+<h2> DataTypes </h2>
+  Neste repositório existem um arquivo .go tratando sobre os assuntos:
+    <br> * Boolean
+    <br> * Tipos Numéricos
+  
