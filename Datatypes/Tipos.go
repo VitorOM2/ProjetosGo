@@ -35,6 +35,12 @@ func main() {
 	fmt.Printf("Existem alguns tipos de float:				\n")
 	fmt.Printf("Float32: vai de +-1.18E-38  até +-3.4E38	\n")
 	fmt.Printf("Float64: vai de +-2.23E-308 até +-1.8E308	\n")
-	fmt.Printf("Exemplo de número float: 3.14				\n")
+	fmt.Printf("Exemplo de número float: 3.14				\n\n")
 
+	// --------- Complex ---------
+	vC := 1 + 2i
+	vC2 := 2 + 5.2i
+	fmt.Printf("O tipo de dado complex é a combinação de números reais e imaginários	\n")
+	fmt.Println("Existe Complex62 e Complex128")
+	fmt.Println("Exemplo de números complexo: (1 + 2i) + (2 + 5.2i):", vC+vC2)
 }
