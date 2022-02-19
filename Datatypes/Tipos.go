@@ -28,5 +28,13 @@ func main() {
 	fmt.Printf("Também existe os unsigned int:												\n")
 	fmt.Printf("Uint8: pode ir do 0 até 255													\n")
 	fmt.Printf("Uint16: pode ir do 0 até 65.535												\n")
-	fmt.Printf("Uint32: pode ir do 0 até 4.294.967.295										\n")
+	fmt.Printf("Uint32: pode ir do 0 até 4.294.967.295										\n\n")
+
+	// ---------- Float ----------
+	fmt.Printf("Float: Números decimais						\n")
+	fmt.Printf("Existem alguns tipos de float:				\n")
+	fmt.Printf("Float32: vai de +-1.18E-38  até +-3.4E38	\n")
+	fmt.Printf("Float64: vai de +-2.23E-308 até +-1.8E308	\n")
+	fmt.Printf("Exemplo de número float: 3.14				\n")
+
 }
