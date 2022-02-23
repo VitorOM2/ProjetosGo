@@ -53,4 +53,8 @@ func main() {
 	fmt.Println("\nString: são feitas de bytes")
 	fmt.Printf("%v, %T \n", s, s) // %v = Variável. %T = Tipo da variável
 
+	// ---------- Runes ----------
+	var r rune = 'a'
+	fmt.Println("Runes: são feitas de int32")
+	fmt.Printf("%v, %T \n", r, r)
 }
