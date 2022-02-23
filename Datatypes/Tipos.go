@@ -16,7 +16,7 @@ func main() {
 	fmt.Printf("Exemplo de um boolean positivo: %v, %T\n", bP, bP)
 	fmt.Printf("Exemplo de um boolean falso: %v, %T \n\n", bN, bN)
 
-	// ---------- Tipos Numéricos ----------
+	// ---------- TIPOS NUMÉRICOS ----------
 
 	// ---------- Interger ----------
 	fmt.Println("Integer: Números inteiros			")
@@ -44,4 +44,13 @@ func main() {
 	fmt.Println("O tipo de dado complex é a combinação de números reais e imaginários")
 	fmt.Println("Existe Complex62 e Complex128")
 	fmt.Println("Exemplo de números complexo: (1 + 2i) + (2 + 5.2i):", vC+vC2)
+
+	// ---------- TIPOS TEXTUAIS ----------
+
+	// --------- String ----------
+	s := "Isso é uma string"
+
+	fmt.Println("\nString: são feitas de bytes")
+	fmt.Printf("%v, %T \n", s, s) // %v = Variável. %T = Tipo da variável
+
 }
