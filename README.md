@@ -80,3 +80,5 @@ Neste repositório existem um arquivo .go tratando sobre os assuntos: <br>
       <li> int32  </li>
     </ul>
     
+<!------------Constantes------------>
+<h3 align='center'> Constantes </h3>
