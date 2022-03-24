@@ -14,5 +14,7 @@ func main() {
 	fmt.Printf("Alunos %v \n", alunos)
 	fmt.Printf("Notas: %v \n", notas)
 	alunos[0] = "João"
+	alunos[1] = "Maria"
+	alunos[2] = "Ana"
 	fmt.Printf("Alunos %v", alunos)
 }
