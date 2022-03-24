@@ -16,5 +16,6 @@ func main() {
 	alunos[0] = "João"
 	alunos[1] = "Maria"
 	alunos[2] = "Ana"
-	fmt.Printf("Alunos %v", alunos)
+	fmt.Printf("Alunos %v \n", alunos)
+	fmt.Printf("Quantidade de alunos: %v", len(alunos)) //Mostra a quantidade de itens em um array
 }
