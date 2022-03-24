@@ -5,8 +5,14 @@ import (
 )
 
 func main() {
+	// ----- Variáveis -----
 	// Arrays
+	var alunos [3]string
 	notas := [...]int{8, 8, 10}
 
-	fmt.Printf("Notas: %v", notas)
+	// ----- Mostra no console -----
+	fmt.Printf("Alunos %v \n", alunos)
+	fmt.Printf("Notas: %v \n", notas)
+	alunos[0] = "João"
+	fmt.Printf("Alunos %v", alunos)
 }
