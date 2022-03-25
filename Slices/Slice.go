@@ -7,4 +7,5 @@ import (
 func main() {
 	a := []int{1, 2, 3}
 	fmt.Println(a)
+	fmt.Printf("Tamanho: %v", len(a)) // Mostra o tamanho do slice
 }
