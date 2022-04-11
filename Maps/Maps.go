@@ -7,7 +7,8 @@ import (
 func main() {
 	// Exemplo de Map
 	// Nome           // [tipo da key] tipos dos dados
-	populacoesEstados := map[string]int{
+	populacoesEstados := make(map[string]int)
+	populacoesEstados = map[string]int{
 		"California":   39250017,
 		"Texas":        27862596,
 		"Florida":      20612439,
