@@ -99,3 +99,21 @@ Neste repositório existem um arquivo .go tratando sobre os assuntos: <br>
     <li> A função cap retorna a capacidade do slice   </li>
     <li> A função append adiciona itens para o slice  </li>
   </ul>
+  <!----------Maps---------->
+  <h3 align='center'> Maps </h3>
+  <ul>
+    <li> Coleção de dados que podem ser acessados via "Keys" </li>
+    <li> Criados via literais ou pela função Make </li>
+    <li> Checa a presença com a forma de resultado "value, ok" </li>
+    <li> Multiplas atribuições referecem se ao mesmo map </li>
+  </ul>
+  
+  <!----------Structs---------->
+  <h3 align='center'> Structs </h3>
+  <ul>
+    <li> Coleção de dados que descrevem o mesmo conceito </li>
+    <li> Organizados por campos de nomes </li>
+    <li>Normalmente criados como tipos mas structs anonimas podem ser criadas </li>
+    <li> São tipos de valores de dados </li>
+    <li> Não existe herança, mas pode ser usada composição via embedding </li>
+  </ul>
