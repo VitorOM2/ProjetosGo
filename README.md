@@ -82,3 +82,20 @@ Neste repositório existem um arquivo .go tratando sobre os assuntos: <br>
     
 <!------------Constantes------------>
 <h3 align='center'> Constantes </h3>
+
+<!----------Arrays---------->
+<h3 align='center'> Arrays </h3>
+  <ul>
+    <li> Coleção de itens com o mesmo tipo        </li>
+    <li> Tamanho fixo                             </li>
+    <li> A função len retorna o tamanho do array  </li>
+  </ul>
+  
+  <!----------Slices---------->
+  <h3 align='center'> Slices </h3>
+  <ul>
+    <li> Suportado por arrays                         </li>
+    <li> A função len retorna o tamanho do slice      </li>
+    <li> A função cap retorna a capacidade do slice   </li>
+    <li> A função append adiciona itens para o slice  </li>
+  </ul>
