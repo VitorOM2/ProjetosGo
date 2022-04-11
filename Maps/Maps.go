@@ -18,5 +18,7 @@ func main() {
 		"Ohio":         11614373,
 	}
 
+	populacoesEstados["Georgia"] = 10310371 //Adiciona um item para o map
 	fmt.Println(populacoesEstados)
+	fmt.Println("População de New York: ", populacoesEstados["New York"])
 }
